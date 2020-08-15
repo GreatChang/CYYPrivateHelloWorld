@@ -7,6 +7,7 @@
 //
 
 #import "CYYViewController.h"
+#import <CYYPrivateHelloWorld/CYYPrintHelloWorld.h>
 
 @interface CYYViewController ()
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    CYYPrintHelloWorld *cyy = [CYYPrintHelloWorld new];
+    [cyy cyy_print];
+
 }
 
 - (void)didReceiveMemoryWarning

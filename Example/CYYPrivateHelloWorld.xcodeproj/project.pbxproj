@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		122C46C8232302B8AE40BE3B /* Pods_CYYPrivateHelloWorld_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYYPrivateHelloWorld_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C69E08346D54687D22511E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3C69E08346D54687D22511E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5A6DCAEC0B53375F7745218B /* Pods-CYYPrivateHelloWorld_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYYPrivateHelloWorld_Tests.release.xcconfig"; path = "Target Support Files/Pods-CYYPrivateHelloWorld_Tests/Pods-CYYPrivateHelloWorld_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5E63428E6EAF030FEF146F46 /* Pods-CYYPrivateHelloWorld_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYYPrivateHelloWorld_Example.debug.xcconfig"; path = "Target Support Files/Pods-CYYPrivateHelloWorld_Example/Pods-CYYPrivateHelloWorld_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CYYPrivateHelloWorld_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYYPrivateHelloWorld_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,9 +61,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7AE7FB700EAFCF02DBA285AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7AE7FB700EAFCF02DBA285AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		993C5BBD1A2A2CD5C249E827 /* CYYPrivateHelloWorld.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CYYPrivateHelloWorld.podspec; path = ../CYYPrivateHelloWorld.podspec; sourceTree = "<group>"; };
+		993C5BBD1A2A2CD5C249E827 /* CYYPrivateHelloWorld.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CYYPrivateHelloWorld.podspec; path = ../CYYPrivateHelloWorld.podspec; sourceTree = "<group>"; };
 		A15373EA22F89E072D493689 /* Pods-CYYPrivateHelloWorld_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYYPrivateHelloWorld_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CYYPrivateHelloWorld_Tests/Pods-CYYPrivateHelloWorld_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C488521CE94E243649A3221B /* Pods_CYYPrivateHelloWorld_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYYPrivateHelloWorld_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6387635798F6EBC69D05522 /* Pods-CYYPrivateHelloWorld_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYYPrivateHelloWorld_Example.release.xcconfig"; path = "Target Support Files/Pods-CYYPrivateHelloWorld_Example/Pods-CYYPrivateHelloWorld_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				A15373EA22F89E072D493689 /* Pods-CYYPrivateHelloWorld_Tests.debug.xcconfig */,
 				5A6DCAEC0B53375F7745218B /* Pods-CYYPrivateHelloWorld_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
